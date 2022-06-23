@@ -4,7 +4,7 @@ const Card = () => {
     return (
         <div>
             {/* <h2>This is card side</h2> */}
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-28'>
                 <div class="card  bg-base-100 shadow-xl image-full">
                     <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
                     <div class="card-body">

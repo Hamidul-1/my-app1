@@ -10,8 +10,8 @@ import Update from './Update';
 
 const Home = () => {
     return (
-        <div>
-            <Banner></Banner><br></br>
+        <div className='px-12'>
+            <Banner></Banner>
             <Card></Card>
             <Update></Update>
             <Login></Login>
