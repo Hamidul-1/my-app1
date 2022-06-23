@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Navbar from './Shared/Navbar';
 import Footer from './Shared/Footer';
 import Login from './Pages/Login/Login';
+import Update from './Pages/Update';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login></Login>}></Route>
+        <Route path="update" element={<Update></Update>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
