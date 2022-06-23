@@ -1,9 +1,10 @@
 import React from 'react';
 import { Routes } from 'react-router-dom';
-import Navbar from '../Shared/Navbar';
+
 import Banner from './Banner';
 import Card from './Card';
-import Footer from './Footer';
+import Login from './Login/Login';
+
 
 
 const Home = () => {
@@ -11,8 +12,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Card></Card>
-            <Footer></Footer>
-            
+            <Login></Login>
         </div>
     );
 };
