@@ -9,8 +9,6 @@ import Footer from './Footer';
 const Home = () => {
     return (
         <div>
-            
-            <Navbar></Navbar>
             <Banner></Banner>
             <Card></Card>
             <Footer></Footer>
